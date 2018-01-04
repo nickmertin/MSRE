@@ -1,0 +1,7 @@
+﻿<Window x:Class="Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:msre="clr-namespace:Mertin.SignatureRecognition.WPF;assembly=Mertin.SignatureRecognition.WPF"
+        Title="MainWindow" Height="350" Width="525">
+    <msre:SignatureCanvas x:Name="canvas" AutoReset="True" StatusChanged="status"/>
+</Window>
